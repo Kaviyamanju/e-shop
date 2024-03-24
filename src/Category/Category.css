@@ -1,0 +1,46 @@
+*{
+    font-family: "Open-Sans";
+}
+
+.Card-Container{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.Card{
+    width: calc(25% - 30px); 
+    border-radius: 10px;
+    border: 2px solid #800404;
+    background-color: lightyellow;
+    flex-grow: 0; /* Prevent stretching to fill the row */
+    box-sizing: border-box;
+    margin: 23px 0px 0px 23px;
+    height:260px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+.Category{
+    border-top: 2px solid gray;
+    padding-top: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+.logo{
+    height:62px;
+}
+
+.heading{
+    text-align: left;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: 'Open-Sans';
+    margin: 23px 0px 0px 45px;
+}
+
+.SummaryText{
+    padding-left: 28px;
+    font-weight: 600;
+}
+

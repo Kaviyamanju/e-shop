@@ -1,0 +1,28 @@
+.Card-1{
+    display: flex;
+    border-radius: 10px;
+    border: 2px solid #800404;
+    background-color: lightyellow;
+    flex-grow: 0; /* Prevent stretching to fill the row */
+    box-sizing: border-box;
+    margin: 23px 0px 0px 23px;
+    height:280px;
+    cursor: pointer;
+    width:500px;
+
+
+}
+.detail-align{
+    display: flex;
+    flex-direction: column;
+    height: 355px;
+    justify-content: space-evenly;
+    margin-left: 187px;
+    font-size: 17px;
+}
+.card-align{
+    display: flex;
+}
+.content-width{
+    width:366px
+}

@@ -1,0 +1,77 @@
+.cart-align{
+    display:flex;
+    border: 1px solid gray;
+    height: 100px;
+    width: 868px;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.cart-img{
+    width: 100px;
+    height: 82px;
+    padding-top: 10px;
+}
+.cart-text-align{
+    display: flex;
+    width: 369px;
+    margin-left: 25px;
+}
+.rupee{
+    font-weight: 600;
+}
+.button-alignment{
+    padding-left: 230px;
+    height: 26px;
+    padding-top: 37px;
+    display: flex;
+    width: 90px;
+    justify-content: space-between;
+}
+.Summary{
+    display: flex;
+    width: 96%;
+    justify-content: space-between;
+}
+.Amount-total{
+  width:350px;
+  border:1px solid gray;
+  height:auto
+}
+.OrderAmount{
+    display: flex;
+    height: 37px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.cart-box{
+    padding-left: 73px;
+}
+.PlaceOrder{
+    float: right;
+    margin-right: 110px;
+    padding-top: 10;
+    margin-top: 17px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: lightcoral;
+    color: white;
+    cursor: pointer;
+    
+
+}
+.mealValue{
+    padding-left: 240px;
+    position: absolute;
+
+}
+.mealId{
+    margin-left: 20px;
+}
+.summaryValue{
+    display: flex;
+    width: 100%;
+}
+.orderedamount{
+    margin-left: 178px;
+}

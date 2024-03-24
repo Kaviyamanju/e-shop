@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+  }
+  
+  .navbar-left {
+  margin-left: 40px;
+  }
+  
+  .navbar-right {
+    display: flex;
+    margin-right: 15px;
+  }
+  
+  .navbar-icon {
+    margin-left: 20px;
+    font-size: 24px;
+    color: #333333;
+    cursor: pointer;
+  }
+  
+  /* Style for the logo */
+  .logo{
+    height:62px;
+}
+  

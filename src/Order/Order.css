@@ -1,0 +1,32 @@
+.order-id{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-left: 30px;
+    font-weight: 600;
+}
+.order-align{
+    display: flex;
+    border: 1px solid gray;
+    height: auto;
+    width: 868px;
+    margin-left: 3%;
+    margin-top: 2%;
+
+    flex-direction: column;
+    padding-bottom: 23px;
+}
+.line{
+    border: 1px solid gray;
+    width: 90%;
+    margin-left: 30px;
+}
+.totalValue{
+    padding-left: 700px;
+    position:absolute;
+}
+.order-text-align{
+    display: flex;
+    width: 100%;
+    margin-left: 25px;
+}
